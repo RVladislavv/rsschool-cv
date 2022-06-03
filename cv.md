@@ -26,15 +26,15 @@ In 2021, I decided to start studying web development in more depth.
 ### **Skills:**
 * HTML5, CSS3, Bootstrap
 
-* JavaScript Basics
+* JavaScript basics
 
-* PHP Basics
+* PHP basics
 
-* SQL Basics
+* SQL basics
 
-* C
+* C basics
 
-* Linux, Bash basics
+* Linux and Bash basics
 
 * Git, GitHub, GitLub
 
@@ -63,7 +63,7 @@ function even_or_odd(number) {
 ### **Experience:**
 As I wrote in About Me, I edited landing pages: I changed fonts, colors, images, text, titles, links - when I was advertising on Facebook and Google.
 
-Sample tutorial project on Udemy: [rvladislavv.github.io](rvladislavv.github.io)
+Sample tutorial project on Udemy: [rvladislavv.github.io](https://rvladislavv.github.io/)
 
 ***
 
