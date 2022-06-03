@@ -1,7 +1,7 @@
 # rsschool-cv
 # Vladislav Rychkov
 
-![I](./img/photo.jpg)
+![I](./photo.jpg)
 ### **Junior WEB Developer**
 ****
 ### **Contacts:**
@@ -105,4 +105,4 @@ B1-B2(Intermediate - EFSET test)
 
 Since childhood I have been learning English periodically. I was in a camp where everyone spoke English. I worked in sales, where I communicated in English.
 
-![Proof](./img/eng.png)
+![Proof](./eng.png)
