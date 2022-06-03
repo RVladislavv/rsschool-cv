@@ -2,7 +2,7 @@
 # Vladislav Rychkov
 
 ![I](./img/photo.jpg)
-### **Junior Frontend Developer**
+### **Junior WEB Developer**
 ****
 ### **Contacts:**
 **Phone:** +79608079494
@@ -24,13 +24,21 @@ In 2021, I decided to start studying web development in more depth.
 ***
 
 ### **Skills:**
-* HTML5, CSS3, Bootstrap 5
+* HTML5, CSS3, Bootstrap
 
 * JavaScript Basics
 
-* Git, GitHub
+* PHP Basics
 
-* VS Code, Notepad++
+* SQL Basics
+
+* C
+
+* Linux, Bash basics
+
+* Git, GitHub, GitLub
+
+* PhpStorm, VS Code, Vim
 
 * Figma, Adobe Photoshop
 
@@ -42,12 +50,11 @@ Create a function that takes an integer as an argument and returns "Even" for ev
 
 ```
 function even_or_odd(number) {
-  let rem = number % 2;
-  if (rem) {
-    return "Odd";
-  } else {
+    let rem = number % 2;
+    if (rem) {
+        return "Odd";
+    } 
     return "Even";
-  }
 }
 ```
 
@@ -86,7 +93,7 @@ Sample tutorial project on Udemy: [rvladislavv.github.io](rvladislavv.github.io)
 * RS School: 
 
 
-    * JS/FE Pre-School 2022 (in progress)
+    * JS/FE Pre-School 2022Q2 (in progress)
 
 ***
 
