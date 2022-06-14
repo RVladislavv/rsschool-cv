@@ -50,7 +50,7 @@ body {
 }
 
 .img:hover {
-    box-shadow: 0 1px 4px black;
+    box-shadow: 0 1px 4px #1d4382;
 }
 
 body {
@@ -60,8 +60,17 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    line-height: 1.5;
 }
 
+.section-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #1d4382;
+}
 
 .container {
     max-width: 1440px;
@@ -71,7 +80,7 @@ body {
 }
 
 .header {
-    background-color: #0077FF;
+    background-color: #90a5d0;
 }
 
 .nav-list {
@@ -137,6 +146,13 @@ body {
     border-top: 1px solid black;
 }
 
+.h3 {
+    color: #5c5c5c;
+    line-height: 50px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
 .last1 {
     border-bottom: none;
 }
@@ -152,7 +168,7 @@ body {
 }
 
 .footer {
-    background-color: #0077FF;
+    background-color: #90a5d0;
     padding: 20px;
 }
 
@@ -181,4 +197,15 @@ body {
 
 .rslogo {
     height: 45px;
+}
+
+.a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5;
+}
+
+.a:hover {
+    color: #5c5c5c;;
+    text-decoration: underline;
 }
