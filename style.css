@@ -38,21 +38,7 @@ body {
 
 * {
     box-sizing: border-box;
-  } 
-
-/*.header {
-    border: 1px solid red;
-}*/
-
-/*.main {
-    border: 1px solid red;
-}*/
-
-
-
-.footer {
-    border: 1px solid red;
-}
+} 
 
 .img {
     width: 200px;
@@ -167,9 +153,32 @@ body {
 
 .footer {
     background-color: #0077FF;
+    padding: 20px;
+}
+
+
+
+.cont-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.footername {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.footername:hover {
+    color: white;
+    font-weight: 390;
+    border-bottom: solid white 1px;
+    border-radius: 5%;
 }
 
 .rslogo {
-    max-height: 45px;
-    color: white;
+    height: 45px;
 }
