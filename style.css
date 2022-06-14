@@ -28,12 +28,6 @@
     font-weight: 900;
 }
 
-@media (max-width: 768px) {
-    .section {
-      width: 100%;
-    }
-  }
-
 html {
     scroll-behavior: smooth; 
 }
@@ -44,7 +38,7 @@ body {
 
 * {
     box-sizing: border-box;
-  }
+  } 
 
 /*.header {
     border: 1px solid red;
@@ -54,21 +48,23 @@ body {
     border: 1px solid red;
 }*/
 
-.main-container {
-    display: flex;
-    flex-wrap: wrap;
-}
 
-.section {
-    width: 50%;
-}
 
-/*.footer {
+.footer {
     border: 1px solid red;
-}*/
+}
 
-img {
-    width: 300px;
+.img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+    transition: 0.3s;
+}
+
+.img:hover {
+    box-shadow: 0 1px 4px black;
 }
 
 body {
@@ -80,10 +76,12 @@ body {
     justify-content: space-between;
 }
 
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 20px;
+    min-height: 50px;
 }
 
 .header {
@@ -112,4 +110,66 @@ body {
     font-weight: 390;
     border-bottom: solid white 1px;
     border-radius: 5%;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.section {
+    width: calc(50% - 20px);
+    border-bottom: 2px solid black;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+
+.profile {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 30px 35px;
+    border-bottom: 10px solid black;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.h3 {
+    padding: 40px;
+    border-top: 1px solid black;
+}
+
+.last1 {
+    border-bottom: none;
+}
+
+@media (max-width: 768px) {
+    .last1 {
+        border-bottom: 2px solid black;
+    }
+}
+
+.last2 {
+    border-bottom: none;
+}
+
+.footer {
+    background-color: #0077FF;
+}
+
+.rslogo {
+    max-height: 45px;
+    color: white;
 }
